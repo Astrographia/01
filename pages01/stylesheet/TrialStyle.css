@@ -1,0 +1,88 @@
+/*body {
+ background-color: lightblue;
+}*/
+
+h1 {
+ color: white;
+ text-align: center;
+}
+
+p {
+ font-family: verdana;
+ font-size: 20px;
+}
+
+
+Body {
+  background-image: url("backimage.png");
+}
+
+/*---------*/
+
+/*
+p.center {
+  text-align: center;
+  color: red;
+}
+
+body {
+  background-color: #b4c4bc;
+}
+
+body {
+  background-image: "pages01/images/backimage.jpeg";
+}
+
+
+body {
+  color: blue;
+}
+
+
+h1 {
+  color: green;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
+}
+
+ h1 {
+  background-image: "pages01/images/backimage.jpeg";
+} */
+
+/*------ content: parent,child format -------*/
+/*
+.ex1 .parent {
+  display: grid;
+  place-items: center;
+}
+
+.parent {
+  display: grid;
+  place-items: center;
+
+  background: lightblue;
+  width: 500px;
+  height: 500px;
+
+  resize: both;
+  overflow: auto;
+}
+
+.child {
+  // etc.
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, serif;
+}
+*/

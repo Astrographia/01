@@ -1,0 +1,70 @@
+@font-face{
+  font-family: Coldiac;
+  src: url(pages01/fonts/Constantine.ttf);
+}
+
+@font-face{
+  font-family: Constantine;
+  src: url(pages01/fonts/Constantine);
+}
+
+header {
+  font-family: Constantine;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 25px;
+}
+
+/*h1{
+  font-family: Constantine;
+}*/
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+
+/*// etc */
+
+header {
+  background: #757BC8;
+  color: white;
+  padding: 1rem;
+  grid-column: 1 / 4;
+}
+
+.left-sidebar {
+  background: #48BFE3;
+  color: #80FFDB;
+  grid-column: 1 / 2;
+}
+
+main {
+  background: #64DFDF;
+  grid-column: 2 / 3;
+}
+
+.right-sidebar {
+  background: #72EFDD;
+  color: #5E60CE;
+  grid-column: 3 / 4;
+}
+
+footer {
+  background: #996CD5;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+body {
+  font-family: Constantine;
+  /*font-family: system-ui, sans-serif;*/
+}
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
